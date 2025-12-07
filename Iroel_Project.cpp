@@ -33,7 +33,11 @@ int main()
 		return 1;
 	}
 
+	ObjectClass myObject;
 
+	std::cout << myObject.GetName() << endl;
+
+	SDL_FRect rect(0,0,100,100);
 	int redIndex = 1, greenIndex = 1, blueIndex = 1;
 	int redOffset = 1, greenOffset = 2, blueOffset = 3;
 	while (running) {
@@ -61,9 +65,10 @@ int main()
 
 		SDL_SetRenderDrawColor(renderer, redIndex, greenIndex, blueIndex, 255);
 		SDL_RenderClear(renderer);
+
+		SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+		SDL_RenderRect(renderer, &rect);
 		
-
-
 
 
 		SDL_RenderPresent(renderer);

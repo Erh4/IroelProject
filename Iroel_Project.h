@@ -9,3 +9,4 @@
 
 #include <SDL3/SDL.h>
 #include "defs.h"
+#include "ObjectClass.h"
