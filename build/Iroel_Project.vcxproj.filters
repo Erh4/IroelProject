@@ -9,6 +9,9 @@
     <ClInclude Include="C:\Users\justi\Desktop\IroelProject\Iroel_Project.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\justi\Desktop\IroelProject\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\justi\Desktop\IroelProject\CMakeLists.txt" />

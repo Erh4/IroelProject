@@ -6,3 +6,6 @@
 #include <iostream>
 
 // TODO: Référencez ici les en-têtes supplémentaires nécessaires à votre programme.
+
+#include <SDL3/SDL.h>
+#include "defs.h"
