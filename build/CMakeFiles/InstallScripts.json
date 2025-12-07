@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/justi/Desktop/IroelProject/build/cmake_install.cmake",
+		"C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

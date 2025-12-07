@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\justi\Desktop\IroelProject\build\CMakeFiles\1bf58965bca42af57875d94406706117\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0784A000-6953-382B-A4CD-822E75EE3078}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLanguage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/justi/Desktop/IroelProject/.git/HEAD
+C:/Users/justi/Desktop/IroelProject/.git/refs/heads/main
+C:/Users/justi/Desktop/IroelProject/build/CMakeFiles/cmake.verify_globs
+C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/SDL_build_config.h.intermediate
+C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/git-data/grabRef.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/CMakeLists.txt
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/3rdparty.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/FindLibUSB.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/GetGitRevisionDescription.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/GetGitRevisionDescription.cmake.in
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/PreseedEmscriptenCache.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/PreseedMSVCCache.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/PreseedNokiaNGageCache.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/SDL3Config.cmake.in
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/macros.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlchecks.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlcommands.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlcompilers.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlcpu.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlmanpages.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/cmake/sdlplatform.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/include/build_config/SDL_build_config.h.cmake
+C:/Users/justi/Desktop/IroelProject/libraries/SDL/include/build_config/SDL_revision.h.cmake
