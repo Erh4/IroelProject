@@ -1,6 +1,13 @@
 #include "ComponentsClass.h"
 
-Transform::Transform() {
+
+void Component::Start() {};
+void Component::Update() {};
+void Component::OnDestroy() {};
+
+
+TransformComponent::TransformComponent(ObjectClass* owner)
+	: Component(owner) {
 	x = 0;
 	y = 0;
 	z = 0;
@@ -10,3 +17,4 @@ Transform::Transform() {
 	rotY = 0;
 	rotZ = 0;
 }
+

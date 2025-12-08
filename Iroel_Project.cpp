@@ -34,9 +34,10 @@ int main()
 	}
 
 	ObjectClass myObject;
+	
 
 	std::cout << myObject.GetName() << endl;
-
+	std::cout << myObject.GetComponent<TransformComponent>()->x << endl;
 	SDL_FRect rect(0,0,100,100);
 	int redIndex = 1, greenIndex = 1, blueIndex = 1;
 	int redOffset = 1, greenOffset = 2, blueOffset = 3;
@@ -62,6 +63,7 @@ int main()
 			blueOffset = -blueOffset;
 			blueIndex += blueOffset;
 		}
+
 
 		SDL_SetRenderDrawColor(renderer, redIndex, greenIndex, blueIndex, 255);
 		SDL_RenderClear(renderer);

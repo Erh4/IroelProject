@@ -4,7 +4,6 @@
 
 ObjectClass::ObjectClass(const std::string& name, const std::string& tag)
 	:name(name), tag(tag) {
-	this->transform = Transform();
 }
 
 std::string ObjectClass::GetName() const {
@@ -23,6 +22,4 @@ void ObjectClass::SetTag(const std::string& newTag) {
 	this->tag = newTag;
 }
 
-Transform& ObjectClass::GetTransform() {
-	return this->transform;
-}
+
