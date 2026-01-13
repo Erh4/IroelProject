@@ -1,7 +1,0 @@
-C:/Users/justi/Desktop/IroelProject/build/CMakeFiles/Iroel_Project.dir
-C:/Users/justi/Desktop/IroelProject/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/justi/Desktop/IroelProject/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/SDL3-shared.dir
-C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/SDL3_test.dir
-C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/SDL_uclibc.dir
-C:/Users/justi/Desktop/IroelProject/build/libraries/SDL/CMakeFiles/ALL_BUILD.dir

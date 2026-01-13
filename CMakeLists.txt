@@ -18,7 +18,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 add_subdirectory(libraries/SDL EXCLUDE_FROM_ALL)
 
 # Ajoutez une source à l'exécutable de ce projet.
-add_executable (Iroel_Project "Iroel_Project.cpp" "Iroel_Project.h" "defs.h"   )
+add_executable (Iroel_Project "Iroel_Project.cpp" "Iroel_Project.h" "defs.h"    "Geometry/Coordinate.cpp" "Geometry/Edge.h" "Geometry/Edge.cpp"  "Geometry/Triangle.cpp" "Geometry/Geometry.h")
 
 #set_property(TARGET Iroel_Project PROPERTY WIN32_EXECUTABLE TRUE)
 
