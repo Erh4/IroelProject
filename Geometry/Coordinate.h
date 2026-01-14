@@ -2,6 +2,8 @@
 #define COORDINATE_INCLUDE
 
 #include <iostream>
+#include <vector>
+
 
 class Coordinate {
 
@@ -15,6 +17,12 @@ public:
 	float z;
 
 	void UpdateCoordinatePosition(float x, float y, float z);
+
+	void addNormalToCoordinate(std::vector<float> normal);
+
+	void addToPosition(std::vector<float> vec);
+
+	std::vector<float> getVector();
 };
 
 

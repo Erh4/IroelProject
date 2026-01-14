@@ -16,9 +16,18 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
 
 add_subdirectory(libraries/SDL EXCLUDE_FROM_ALL)
+set(IMGUI_SOURCES
+    libraries/imgui/imgui.cpp
+    libraries/imgui/imgui_draw.cpp
+    libraries/imgui/imgui_tables.cpp
+    libraries/imgui/imgui_widgets.cpp
+    libraries/imgui/backends/imgui_impl_sdl3.cpp
+    libraries/imgui/backends/imgui_impl_opengl3.cpp
+)
 
+find_package(OpenGL REQUIRED)
 # Ajoutez une source à l'exécutable de ce projet.
-add_executable (Iroel_Project "Iroel_Project.cpp" "Iroel_Project.h" "defs.h"    "Geometry/Coordinate.cpp" "Geometry/Edge.h" "Geometry/Edge.cpp"  "Geometry/Triangle.cpp" "Geometry/Geometry.h")
+add_executable (Iroel_Project "Iroel_Project.cpp" "Iroel_Project.h" "defs.h"    "Geometry/Coordinate.cpp" "Geometry/Edge.h" "Geometry/Edge.cpp"  "Geometry/Triangle.cpp" "Geometry/Geometry.h" "Camera.h" "Camera.cpp" ${IMGUI_SOURCES} "RendererGL.h" "RendererGL.cpp")
 
 #set_property(TARGET Iroel_Project PROPERTY WIN32_EXECUTABLE TRUE)
 
@@ -28,4 +37,10 @@ endif()
 
 # TODO: Ajoutez des tests et installez des cibles si nécessaire.
 
-target_link_libraries(Iroel_Project PRIVATE SDL3::SDL3)
+target_link_libraries(Iroel_Project PRIVATE 
+                                    SDL3::SDL3
+                                    OpenGL::GL)
+target_include_directories(Iroel_Project PRIVATE
+    libraries/imgui
+    libraries/imgui/backends
+)

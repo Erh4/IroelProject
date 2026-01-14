@@ -13,3 +13,8 @@
 #include "Geometry/Geometry.h"
 #include <vector>
 #include <numbers>
+#include "Camera.h"
+#include <math.h>
+#include <imgui.h>
+#include <SDL3/SDL_opengl.h>
+#include "RendererGL.h"
